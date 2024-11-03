@@ -10,7 +10,7 @@ const projectsData = [
     title: "eStore v1",
     description: "Ecommerce store using Nexjs and Framer Motion with authentication and admin controls",
     image: "estore.png",
-    tools: "Nextjs, Axios, Bcrypt, Framer-motion, Lodash, Mongoose, Chartjs, Tailwindcss",
+    tools: "Nextjs, Axios, Bcrypt, Framer-motion, Mongoose, Chartjs, Tailwindcss",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/s7xdd/estore_v1",
     previewUrl: "https://estore-v1.netlify.app/",
