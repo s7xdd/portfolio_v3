@@ -8,8 +8,9 @@ const projectsData = [
   {
     id: 1,
     title: "eStore v1",
-    description: "Ecommerce store using Nexjs with authentication and admin controls",
+    description: "Ecommerce store using Nexjs and Framer Motion with authentication and admin controls",
     image: "estore.png",
+    tools: "Nextjs, Axios, Bcrypt, Framer-motion, Lodash, Mongoose, Chartjs, Tailwindcss",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/s7xdd/estore_v1",
     previewUrl: "https://estore-v1.netlify.app/",
@@ -17,8 +18,9 @@ const projectsData = [
   {
     id: 2,
     title: "Company Portfolio",
-    description: "A portfolio website for a company based in UAE using Nextjs",
+    description: "A portfolio website for a company based in UAE using Nextjs and Tailwindcss",
     image: "starline-general.png",
+    tools: "Nextjs, Tailwindcss, Framer-motion",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/s7xdd/starline_general_trading",
     previewUrl: "https://starlinegeneral.netlify.app/",
@@ -26,29 +28,32 @@ const projectsData = [
   {
     id: 3,
     title: "Your News",
-    description: "A react news app",
+    description: "A react news app showcasing global news with categories implementing GNews Public API.",
     image: "news-app.png",
+    tools: "React, Axios, React-Bootstrap, Redux",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/s7xdd/react-news",
     previewUrl: "https://react-news-s7xdd.netlify.app/",
   },
   {
     id: 4,
-    title: "Age Calculator",
-    description: "Android app made using Kotlin",
-    image: "android.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/s7xdd/AgeCounter",
-    previewUrl: "https://github.com/s7xdd/AgeCounter",
+    title: "Express JWT Auth Template",
+    description: "Authentication template with email verification for Nodejs server",
+    image: "mern-auth.png",
+    tools: "Nodejs, Express, Bcrypt, JWT, MongoDB, Nodemailer",
+    tag: ["All", "Api"],
+    gitUrl: "https://github.com/s7xdd/express_auth",
+    previewUrl: "https://github.com/s7xdd/express_auth",
   },
   {
     id: 5,
-    title: "Express JWT Auth Template",
-    description: "Authentication template with email verification",
-    image: "mern-auth.png",
-    tag: ["All", "Api"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Age Calculator",
+    description: "Android app made using Kotlin",
+    image: "android.png",
+    tools: "Kotlin",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/s7xdd/AgeCounter",
+    previewUrl: "https://github.com/s7xdd/AgeCounter",
   },
 ];
 
@@ -110,6 +115,7 @@ const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
+              tools={project.tools}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
