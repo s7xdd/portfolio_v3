@@ -57,7 +57,7 @@ const AboutSection = () => {
     <section className="text-white  pb-16  " id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         {/* <Image src="/about-me.jpg" width={700} height={500} alt="About Image" className="rounded-md" /> */}
-        <h2 className="text-7xl md:text-7xl lg:text-9xl text-center font-bold mb-4 p-0 md:p-12 "><Cover>ABOUT <br/> ME</Cover></h2>
+        <h2 className="text-7xl md:text-7xl lg:text-9xl text-center font-bold mb-4 p-0 md:p-12 "><Cover>ABOUT</Cover><br/> ME</h2>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           
           <p className="text-base lg:text-lg text-center md:text-left">
