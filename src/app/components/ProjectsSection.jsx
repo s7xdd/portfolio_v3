@@ -59,7 +59,7 @@ const projectsData = [
   {
     id: 6,
     title: "Fashion store - Front end",
-    description: "Authentication template with email verification for Nodejs server",
+    description: "A front end fashion webstore project using React.",
     image: "fashion1.png",
     tools: "React, Vitejs, TailwindCSS",
     tag: ["All", "Web"],
