@@ -58,6 +58,16 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Fashion store - Front end",
+    description: "Authentication template with email verification for Nodejs server",
+    image: "mern-auth.png",
+    tools: "Nodejs, Express, Bcrypt, JWT, MongoDB, Nodemailer",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/s7xdd/fashion-store",
+    previewUrl: "https://fashionstore-s7xdd.netlify.app/",
+  },
+  {
+    id: 7,
     title: "Age Calculator",
     description: "Android app made using Kotlin",
     image: "android.png",
