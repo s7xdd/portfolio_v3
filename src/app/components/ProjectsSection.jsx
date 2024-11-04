@@ -60,7 +60,7 @@ const projectsData = [
     id: 6,
     title: "Fashion store - Front end",
     description: "Authentication template with email verification for Nodejs server",
-    image: "mern-auth.png",
+    image: "fashion1.png",
     tools: "React, Vitejs, TailwindCSS",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/s7xdd/fashion-store",
