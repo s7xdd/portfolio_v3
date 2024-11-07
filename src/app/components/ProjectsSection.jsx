@@ -23,7 +23,7 @@ const projectsData = [
     tools: "Nextjs, Tailwind CSS, React Router, Framer-motion",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/s7xdd/starline_general_trading",
-    previewUrl: "https://starlinegeneral.netlify.app/",
+    previewUrl: "https://starlinegeneral.com",
   },
 
   {
